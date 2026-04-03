@@ -14,7 +14,7 @@ import utils.FormData;
 
 public class Test1 extends Base_class {
 
-    @DataProvider(name = "formData")
+    @DataProvider(name = "formData" )
     public Object[][] getFormData() throws IOException {
         String filePath = System.getProperty("user.dir")
                 + "/test_data/formdata.xlsx";

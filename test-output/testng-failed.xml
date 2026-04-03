@@ -8,8 +8,8 @@
           <include name="tearDownReport"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="registerUser" invocation-numbers="0 1 2"/>
           <include name="setupReport"/>
-          <include name="new1"/>
         </methods>
       </class> <!-- test.Test1 -->
     </classes>

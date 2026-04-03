@@ -13,7 +13,7 @@ public class Page1 {
     }
 
     private By firstName = By.xpath("//input[@placeholder='First Name']");
-    private By lastName = By.xpath("//input[@plaeholder='Last Name']");
+    private By lastName = By.xpath("//input[@placeholder='Last Name']");
     private By address = By.xpath("//div/textarea[@rows='3']");
     private By email = By.xpath("//input[@type='email']");
     private By phone = By.xpath("//input[@type='tel']");

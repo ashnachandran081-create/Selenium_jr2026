@@ -1,40 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-03T12:39:41 IST" name="Default suite" finished-at="2026-04-03T12:39:49 IST" duration-ms="8017">
+  <suite started-at="2026-04-03T14:48:29 IST" name="Default suite" finished-at="2026-04-03T14:48:51 IST" duration-ms="22426">
     <groups>
     </groups>
-    <test started-at="2026-04-03T12:39:41 IST" name="Default test" finished-at="2026-04-03T12:39:49 IST" duration-ms="8017">
-      <class name="test.Test2">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:test.Test2@9d5509a]" started-at="2026-04-03T12:39:41 IST" name="setupReport" finished-at="2026-04-03T12:39:41 IST" duration-ms="398" status="PASS">
+    <test started-at="2026-04-03T14:48:29 IST" name="Default test" finished-at="2026-04-03T14:48:51 IST" duration-ms="22426">
+      <class name="test.Test1">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:28 IST" name="setupReport" finished-at="2026-04-03T14:48:29 IST" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.Test2@9d5509a]" started-at="2026-04-03T12:39:41 IST" name="setup" finished-at="2026-04-03T12:39:49 IST" duration-ms="7427" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:30 IST" name="setup" finished-at="2026-04-03T14:48:37 IST" duration-ms="7063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="new2()[pri:0, instance:test.Test2@9d5509a]" started-at="2026-04-03T12:39:49 IST" name="new2" finished-at="2026-04-03T12:39:49 IST" duration-ms="304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- new2 -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.Test2@9d5509a]" started-at="2026-04-03T12:39:49 IST" name="teardown" finished-at="2026-04-03T12:39:49 IST" duration-ms="245" status="PASS">
+        <test-method signature="registerUser(utils.FormData)[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:37 IST" name="registerUser" data-provider="formData" finished-at="2026-04-03T14:48:39 IST" duration-ms="1578" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=new2 status=SUCCESS method=Test2.new2()[pri:0, instance:test.Test2@9d5509a] output={null}]]]>
+                <![CDATA[utils.FormData@1292071f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:39 IST" name="teardown" finished-at="2026-04-03T14:48:39 IST" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerUser status=SUCCESS method=Test1.registerUser(utils.FormData)[pri:0, instance:test.Test1@24aed80c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:test.Test2@9d5509a]" started-at="2026-04-03T12:39:49 IST" name="tearDownReport" finished-at="2026-04-03T12:39:50 IST" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:39 IST" name="setup" finished-at="2026-04-03T14:48:44 IST" duration-ms="4508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerUser(utils.FormData)[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:44 IST" name="registerUser" data-provider="formData" finished-at="2026-04-03T14:48:45 IST" duration-ms="1003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[utils.FormData@440e3ce6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:45 IST" name="teardown" finished-at="2026-04-03T14:48:45 IST" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerUser status=SUCCESS method=Test1.registerUser(utils.FormData)[pri:0, instance:test.Test1@24aed80c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:45 IST" name="setup" finished-at="2026-04-03T14:48:50 IST" duration-ms="4517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerUser(utils.FormData)[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:50 IST" name="registerUser" data-provider="formData" finished-at="2026-04-03T14:48:51 IST" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[utils.FormData@5ceecfee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:51 IST" name="teardown" finished-at="2026-04-03T14:48:51 IST" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerUser status=SUCCESS method=Test1.registerUser(utils.FormData)[pri:0, instance:test.Test1@24aed80c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:test.Test1@24aed80c]" started-at="2026-04-03T14:48:51 IST" name="tearDownReport" finished-at="2026-04-03T14:48:51 IST" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
-      </class> <!-- test.Test2 -->
+      </class> <!-- test.Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
